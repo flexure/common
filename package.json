@@ -1,6 +1,6 @@
 {
 	"name": "@flexure/common",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Library for App",
 	"source": "src/index.ts",
 	"main": "dist/index.js",
@@ -10,7 +10,7 @@
 	"scripts": {
 		"build": "microbundle-crl --no-compress --format modern,cjs --target web",
 		"watch": "microbundle-crl watch --no-compress --format modern,cjs",
-		"build:common": "microbundle-crl --no-compress --format modern,cjs --target web",
+		"build:common": "microbundle-crl --no-compress --format modern,cjs --target web",2
 		"watch:common": "microbundle-crl watch --no-compress --format modern,cjs"
 	},
 	"author": "Ronald Manzano",

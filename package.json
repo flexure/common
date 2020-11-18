@@ -10,14 +10,11 @@
 	"scripts": {
 		"build": "microbundle-crl --no-compress --format modern,cjs --target web",
 		"watch": "microbundle-crl watch --no-compress --format modern,cjs",
-		"build:common": "microbundle-crl --no-compress --format modern,cjs --target web",2
+		"build:common": "microbundle-crl --no-compress --format modern,cjs --target web",
 		"watch:common": "microbundle-crl watch --no-compress --format modern,cjs"
 	},
 	"author": "Ronald Manzano",
 	"license": "MIT",
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/"
-	},
 	"devDependencies": {
 		"@types/jest": "^25.2.3",
 		"@types/lodash": "^4.14.154",
